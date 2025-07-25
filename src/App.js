@@ -25,6 +25,17 @@ function App() {
           </div>
           <hr />
         </div>
+        <div className="fuck">
+          <div className="logo_images">
+            <img src={nice} alt="" />
+            <img src={unilag} alt="" />
+          </div>
+          <div className="CESS montserrat">
+            <p>Civil Engineering Student Society</p>
+            <p>(NICE -SA UNILAG)</p>
+          </div>
+        </div>
+
         <div className="foreground">
           <div className="better_future  Left">
             {/* <p className="for_a">FOR A</p> */}
