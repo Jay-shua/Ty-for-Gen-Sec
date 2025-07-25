@@ -402,6 +402,9 @@
     background-size: cover; /* fills the screen */
     background-repeat: no-repeat; /* no tiling */
     background-position: center;
+    position: relative;
+    z-index: -1000;
+    height: 100%;
   }
   .logo_images {
     & img {
