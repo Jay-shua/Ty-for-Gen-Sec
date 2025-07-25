@@ -6,9 +6,7 @@ import nice from "./nice-removebg-preview.png";
 import unilag from "./unilag-go.png";
 import { FaStar } from "react-icons/fa";
 
-
 function App() {
-
   return (
     <>
       {/* Desktop View */}
@@ -29,9 +27,9 @@ function App() {
         </div>
         <div className="foreground">
           <div className="better_future  Left">
-            <p className="for_a">FOR A</p>
+            {/* <p className="for_a">FOR A</p> */}
             <div className="stand_out">
-              <p>BETTER</p> <p>FUTURE</p>
+              <p>STRUCTURE</p> <p>SERVICE</p> <p>STABILITY</p>
             </div>
           </div>
           <div className="tomiwa Right">
@@ -67,8 +65,8 @@ function App() {
         </div>
       </div>
 
-      {/* Mobile and Tablet View */}
-      <div className="mobile">
+      {/* Tablet View */}
+      <div className="mobile tablet">
         <div className="logo-images">
           <img src={nice} alt="" />
           <img src={unilag} alt="" />
@@ -80,10 +78,7 @@ function App() {
             CIVIL ENGINEERING STUDENT SOCIETY
           </p>
         </div>
-        <div className="post_going_for phone">
-          <p className="name">OLATOMIWA</p>
-          <p className="postion">FOR GENERAL SECRETARY</p>
-        </div>
+
         <div className="foreground_mobile">
           <img src={ty_image_mobile} alt="" />
 
@@ -112,11 +107,59 @@ function App() {
             </div>
           </div>
         </div>
-         <div className="button phone">
-              <a href="https://chat.whatsapp.com/ICGmDh3bpUeJh37yD7ixj3?mode=r_t">
-                JOIN THE MOVEMENT
-              </a>
+      </div>
+
+      {/* Phone View */}
+      <div className="phone">
+        <div className=" phone_mobile">
+          <div className="logo_mobile">
+            <div className="logo_images">
+              <img src={nice} alt="" />
+              <img src={unilag} alt="" />
             </div>
+            <div className="CESS montserrat">
+              <p>Civil Engineering Student Society</p>
+              <p>(NICE -SA UNILAG)</p>
+            </div>
+          </div>
+          <div className="image">
+            <img src={ty_image} alt="" />
+          </div>
+          <div className="better_future  Left">
+            {/* <p className="for_a">FOR A</p> */}
+            <div className="stand_out">
+              <p>STRUCTURE</p> <p>SERVICE</p> <p>STABILITY</p>
+            </div>
+          </div>
+          <div className="show_forth_1">
+            <FaStar color="#1d3501" size={15} />
+            <FaStar color="#1d3501" size={15} />
+            <FaStar color="#1d3501" size={15} />
+            <FaStar color="#1d3501" size={15} />
+            <FaStar color="#1d3501" size={15} />
+            <FaStar color="#1d3501" size={15} />
+          </div>
+          <div className="tomiwa Right">
+            <div className="vote">VOTE</div>
+            <div className="post_going_for">
+              <p className="name">OLATOMIWA</p>
+              <p className="postion">FOR GENERAL SECRETARY</p>
+            </div>
+            <div className="short_desc">
+              I am committed to clear communication, accurate documentation, and
+              smooth coordination within CESS. <br /> Elect me as General
+              Secretary — for structure, service, and student-centered
+              leadership.
+            </div>
+            <div className="cta">
+              <div className="button">
+                <a href="https://chat.whatsapp.com/ICGmDh3bpUeJh37yD7ixj3?mode=r_t">
+                  Join the Movement
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
