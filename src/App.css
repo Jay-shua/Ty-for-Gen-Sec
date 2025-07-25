@@ -398,6 +398,10 @@
   }
   .phone {
     display: block;
+    background-image: url("./CESS\ Laptop.png");
+    background-size: cover; /* fills the screen */
+    background-repeat: no-repeat; /* no tiling */
+    background-position: center;
   }
   .logo_images {
     & img {
